@@ -1,4 +1,4 @@
-﻿double Exp(double number, int degree)
+double Exp(double number, int degree)
 {
     if (degree >= 0)
     {
@@ -24,9 +24,8 @@
 int CheckInputInt32(string message)
 {
     bool check = false;
-    int number;
     Console.Write($"{message} ");
-    check = int.TryParse(Console.ReadLine(), out number);
+    check = int.TryParse(Console.ReadLine(), out int number);
     while (check == false)
     {
         Console.Write($"Неверные данные. {message} ");
@@ -38,9 +37,8 @@ int CheckInputInt32(string message)
 double CheckInputDouble(string message)
 {
     bool check = false;
-    double number;
     Console.Write($"{message} ");
-    check = double.TryParse(Console.ReadLine()?.Replace(",", "."), out number);
+    check = double.TryParse(Console.ReadLine()?.Replace(",", "."), out double number);
     while (check == false)
     {
         Console.Write($"Неверные данные. {message} ");
