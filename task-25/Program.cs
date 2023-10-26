@@ -21,23 +21,35 @@
     }
 }
 
-Console.Clear();
-bool check = false;
-double userNumber;
-int userDegree;
-Console.Write("Введите число: ");
-check = double.TryParse(Console.ReadLine(), out userNumber);
-while (check == false)
+int CheckInputInt32(string message)
 {
-    Console.Write("Недопустимое значение. Введите число: ");
-    check = double.TryParse(Console.ReadLine(), out userNumber);
-}
-Console.Write("Введите степень: ");
-check = int.TryParse(Console.ReadLine(), out userDegree);
-while (check == false)
-{
-    Console.Write("Недопустимое значение. Введите число: ");
-    check = int.TryParse(Console.ReadLine(), out userDegree);
+    bool check = false;
+    int number;
+    Console.Write($"{message} ");
+    check = int.TryParse(Console.ReadLine(), out number);
+    while (check == false)
+    {
+        Console.Write($"Неверные данные. {message} ");
+        check = int.TryParse(Console.ReadLine(), out number);
+    }
+    return number;
 }
 
+double CheckInputDouble(string message)
+{
+    bool check = false;
+    double number;
+    Console.Write($"{message} ");
+    check = double.TryParse(Console.ReadLine()?.Replace(",", "."), out number);
+    while (check == false)
+    {
+        Console.Write($"Неверные данные. {message} ");
+        check = double.TryParse(Console.ReadLine(), out number);
+    }
+    return number;
+}
+
+Console.Clear();
+double userNumber = CheckInputDouble("Введите число:");
+int userDegree = CheckInputInt32("Введите степень числа:");
 Console.WriteLine($"Число {userNumber} в степени {userDegree} равно: {Exp(userNumber, userDegree)}");
