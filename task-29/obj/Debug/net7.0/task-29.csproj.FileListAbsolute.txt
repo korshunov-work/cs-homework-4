@@ -1,0 +1,15 @@
+/home/korshunov/Education/cs-homework-4/task-29/bin/Debug/net7.0/task-29
+/home/korshunov/Education/cs-homework-4/task-29/bin/Debug/net7.0/task-29.deps.json
+/home/korshunov/Education/cs-homework-4/task-29/bin/Debug/net7.0/task-29.runtimeconfig.json
+/home/korshunov/Education/cs-homework-4/task-29/bin/Debug/net7.0/task-29.dll
+/home/korshunov/Education/cs-homework-4/task-29/bin/Debug/net7.0/task-29.pdb
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/task-29.csproj.AssemblyReference.cache
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/task-29.GeneratedMSBuildEditorConfig.editorconfig
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/task-29.AssemblyInfoInputs.cache
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/task-29.AssemblyInfo.cs
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/task-29.csproj.CoreCompileInputs.cache
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/task-29.dll
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/refint/task-29.dll
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/task-29.pdb
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/task-29.genruntimeconfig.cache
+/home/korshunov/Education/cs-homework-4/task-29/obj/Debug/net7.0/ref/task-29.dll
